@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    background-color: rgb(227, 211, 90);
+    padding: 10px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 7px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.logo-empresa {
+    display: flex;
+    align-items: center;
+}
+ .logo-empresa img {
+     height: 65px;
+     margin-right: 10px;
+ }
+
+ @media (max-width:700px) {
+     header {
+         flex-direction: column;
+     }
+
+     nav {
+         padding: 10px 0px;
+     }
+ }
